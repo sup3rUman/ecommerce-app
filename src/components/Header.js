@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, Link} from 'react-router-dom';
 import {BsSearch} from 'react-icons/bs';
-
 const Header = () => {
   return (
     <>
@@ -86,7 +85,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
+  </header>
     <header className='header-bottom py-3'>
       <div className='container-xxl'>
         <div className='row'>
