@@ -1,0 +1,34 @@
+.navbar__container-all {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__container-center {
+    position: relative;
+    background: var( --color-131921);
+    z-index: 1;
+    padding: 10px;
+}
+.help__center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons-link__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+@media (max-width:768px) {
+    
+}
