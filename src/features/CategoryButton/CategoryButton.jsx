@@ -40,6 +40,7 @@ const CategoryButton = () => {
         setOpen(false);
     };
 
+    // A function to loop through the shopCategories
     const shopCategoryItems = () => {
 
       const shopCategoryItem = shopCategories.map( (element, index) => {
@@ -54,7 +55,7 @@ const CategoryButton = () => {
           )
       });
       return shopCategoryItem;
-    }
+    };
     
 
   return (
@@ -64,7 +65,7 @@ const CategoryButton = () => {
         ref={anchorRef}
         aria-label="split button"
       >
-        <Button onClick={handleClick}>shop</Button>
+        <Button onClick={handleClick}>Shop Categories</Button>
         <Button
           size="small"
           aria-controls={open ? "split-button-menu" : undefined}

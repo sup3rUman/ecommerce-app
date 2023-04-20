@@ -17,8 +17,8 @@ const UserDropdown = () => {
       setIsOpen(prev => !prev);
     };
 
-
   return (
+
     <div className="relative inline-block">
       <div
         className="user-icon-btn focus:outline-none"
@@ -28,38 +28,35 @@ const UserDropdown = () => {
 
 
       {isOpen && (
-        <div className="user-dropdown">
-          <ul className="user-dropdown-items">
-            <li>
-              <Link to="" className="user-dropdown-item" role="menuItem">
-                {" "}
-                <AccountCircleIcon />
-                <span>My Profile</span>
-              </Link>
-            </li>
-            <li>
-              <Link to="" className="user-dropdown-item" role="menuItem">
-                {" "}
-                <SettingsIcon /> <span> Settings</span>
-              </Link>
-            </li>
-            <li>
-              <Link to="" className="user-dropdown-item" role="menuItem">
-                <FavoriteBorderIcon />
-                <span>Favourites</span>
-              </Link>
-            </li>
-
-            <button
-              className="user-dropdown-item-btn-logout user-dropdown-item-logout"
-            >
-              {" "}
-              <LogoutIcon />
-              <span>Log Out</span>
-            </button>
-          </ul>
-        </div>
-      )}
+          <div className="user-dropdown">
+            <ul className="user-dropdown-items">
+              <li>
+                <Link to="" className="user-dropdown-item" role="menuItem">
+                  <AccountCircleIcon/>
+                  <span>My Profile</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="" className="user-dropdown-item" role="menuItem">
+                  <SettingsIcon/>
+                 <span> Settings</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="" className="user-dropdown-item" role="menuItem">
+                  <FavoriteBorderIcon/>
+                  <span>Favourites</span>
+                </Link>
+              </li>
+  
+              <button
+                className="user-dropdown-item-btn-logout user-dropdown-item-logout">
+                  <LogoutIcon/>
+                <span>Log Out</span>
+              </button>
+            </ul>
+          </div>
+        )};
     </div>
   );
 }
