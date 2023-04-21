@@ -16,7 +16,10 @@ a {
   text-decoration: none;
   display: inline-block;
 }
-
+a, li {
+  text-decoration: none;
+  list-style: none;
+}
 .form-control:focus {
   box-shadow: none;
   border-color: inherit;
