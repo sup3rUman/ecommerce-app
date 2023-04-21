@@ -18,7 +18,7 @@ const Header = () => {
     <header className="header-upper py-3">
       <div className='container-xxl'>
         <div className='row align-items-center'>
-          <div className='col-2'>
+          <div className='col-2 flex-wrap'>
             <h4>
               <Link className='text-white'>Comrade_Square</Link>
             </h4>
@@ -37,7 +37,7 @@ const Header = () => {
               </span>
             </div>
           </div>
-          <div className='col-5 '>
+          <div className='col-5'>
             <div className='header-upper-links d-flex align-items-center justify-content-between'>
               <div>
                 <Link className='d-flex align-items-center gap-10 text-white'>
@@ -98,7 +98,7 @@ const Header = () => {
   id="dropdownMenuButton1" 
   data-bs-toggle="dropdown" 
   aria-expanded="false">
-    <img src='images/menu.svg' alt='' /><span className='d-inline-block'>Shop Categories</span>
+    <span className='d-inline-block'>Shop Categories</span>
   </button>
   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <li><Link className="dropdown-item" to="#">Action</Link></li>
