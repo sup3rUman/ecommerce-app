@@ -13,6 +13,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "bootstrap": "^5.2.3",
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.4",
     "icons": "^1.0.0",
     "mdb-react-ui-kit": "^6.0.0",
     "react": "^18.2.0",
@@ -47,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
