@@ -1,4 +1,4 @@
-export const shopCategories = [
+export const CategoryItem = [
     {
         'id': 1,
         "name": 'Electronics',
